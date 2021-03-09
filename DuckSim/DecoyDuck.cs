@@ -5,13 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using DuckSim.interfaces;
 
-namespace DuckSim.behaviors
+namespace DuckSim
 {
-    public class FlyNoWay : IFlyable
+    public class DecoyDuck : IQuackable
     {
-        public void fly()
+        public void quack()
         {
-            Console.WriteLine("Fly no way");
+            Console.WriteLine("Duck decoy quack");
         }
     }
 }

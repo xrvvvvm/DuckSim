@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DuckSim.interfaces
 {
-    interface ISwimmable
+    public interface ISwimmable
     {
+        void swim();
     }
 }

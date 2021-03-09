@@ -11,6 +11,7 @@ namespace DuckSim
         {
             quackBehavior = new Quack();
             flyBehavior = new ReactFly();
+            swimBehavior = new SwimWithPaws();
         }
 
         public override void display()

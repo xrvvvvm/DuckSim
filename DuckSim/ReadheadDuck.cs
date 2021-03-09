@@ -10,6 +10,7 @@ namespace DuckSim
         {
             quackBehavior = new Quack();
             flyBehavior = new FlyWithWings();
+            swimBehavior = new SwimWithPaws();
         }
         public override void display()
         {

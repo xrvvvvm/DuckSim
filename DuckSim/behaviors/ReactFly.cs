@@ -7,7 +7,7 @@ using DuckSim.interfaces;
 
 namespace DuckSim.behaviors
 {
-    public class ReactFly : Flyable
+    public class ReactFly : IFlyable
     {
         public void fly()
         {

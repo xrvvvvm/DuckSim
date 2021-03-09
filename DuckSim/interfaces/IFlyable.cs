@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DuckSim.interfaces
 {
-    public interface Flyable
+    public interface IFlyable
     {
         void fly();
     }

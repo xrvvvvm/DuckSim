@@ -9,8 +9,9 @@ namespace DuckSim
 {
     public abstract class Duck
     {
-        public Flyable flyBehavior;
+        public IFlyable flyBehavior;
         public IQuackable quackBehavior;
+        public ISwimmable swimBehavior;
 
         public void performFly()
         {
@@ -20,6 +21,11 @@ namespace DuckSim
         public void performQuack()
         {
             quackBehavior.quack();
+        }
+
+        public void performSwim()
+        {
+            swimBehavior.swim();
         }
 
         public abstract void display();
