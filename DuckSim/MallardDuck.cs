@@ -5,14 +5,15 @@ using DuckSim.behaviors;
 
 namespace DuckSim
 {
-    class MallardDuck : Duck
+    public class MallardDuck : Duck
     {
         public MallardDuck()
         {
             quackBehavior = new Quack();
             flyBehavior = new ReactFly();
         }
-        public void display()
+
+        public override void display()
         {
             Console.WriteLine("MallardDuck display");
         }

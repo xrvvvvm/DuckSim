@@ -22,9 +22,6 @@ namespace DuckSim
             quackBehavior.quack();
         }
 
-        public void display()
-        {
-
-        }
+        public abstract void display();
     }
 }

@@ -4,14 +4,14 @@ using DuckSim.behaviors;
 
 namespace DuckSim
 {
-    class ReadheadDuck : Duck
+    public class ReadheadDuck : Duck
     {
         public ReadheadDuck()
         {
             quackBehavior = new Quack();
             flyBehavior = new FlyWithWings();
         }
-        public void display()
+        public override void display()
         {
             Console.WriteLine("ReadheadDuck display");
         }

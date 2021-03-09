@@ -3,7 +3,7 @@ using System;
 
 namespace DuckSim.behaviors
 {
-    class MuteQuack : IQuackable
+    public class MuteQuack : IQuackable
     {
         public void quack()
         {
