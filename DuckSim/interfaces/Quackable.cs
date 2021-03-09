@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DuckSim.src.behaviors
+namespace DuckSim.interfaces
 {
-    class MallardDuck
+    public interface IQuackable
     {
-
+        void quack();
     }
 }

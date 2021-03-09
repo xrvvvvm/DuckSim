@@ -10,6 +10,7 @@ namespace DuckSim
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
