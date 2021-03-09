@@ -10,7 +10,7 @@ namespace DuckSim
     public abstract class Duck
     {
         public Flyable flyBehavior;
-        public Quackable quackBehavior;
+        public IQuackable quackBehavior;
 
         public void performFly()
         {
