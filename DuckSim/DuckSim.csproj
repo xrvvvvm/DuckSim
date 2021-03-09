@@ -45,6 +45,12 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\behaviors\Quack.cs" />
+    <Compile Include="src\behaviors\ReactFly.cs" />
+    <Compile Include="src\behaviors\Squeak.cs" />
+    <Compile Include="src\interfaces\Quackable.cs" />
+    <Compile Include="src\MallardDuck.cs" />
+    <Compile Include="src\ReadheadDuck.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
