@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DuckSim.interfaces;
 
-namespace DuckSim
+namespace DuckSim.behaviors
 {
-    class Program
+    class ReactFly : Flyable
     {
-        static void Main(string[] args)
+        public void fly()
         {
-
+            Console.WriteLine("React fly");
         }
     }
 }

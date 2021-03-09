@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DuckSim
+namespace DuckSim.interfaces
 {
-    class Program
+    interface Flyable
     {
-        static void Main(string[] args)
-        {
-
-        }
+        void fly();
     }
 }
