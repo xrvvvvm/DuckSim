@@ -7,7 +7,7 @@ using DuckSim.interfaces;
 
 namespace DuckSim.behaviors
 {
-    class FlyNoWay : Flyable
+    public class FlyNoWay : Flyable
     {
         public void fly()
         {

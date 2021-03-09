@@ -7,22 +7,22 @@ using DuckSim.interfaces;
 
 namespace DuckSim
 {
-    abstract class Duck
+    public abstract class Duck
     {
-        Flyable flyBehavior;
-        Quackable quackBehavior;
+        public Flyable flyBehavior;
+        public Quackable quackBehavior;
 
-        void performFly()
+        public void performFly()
         {
             flyBehavior.fly();
         }
 
-        void performQuack()
+        public void performQuack()
         {
             quackBehavior.quack();
         }
 
-        void display()
+        public void display()
         {
 
         }
