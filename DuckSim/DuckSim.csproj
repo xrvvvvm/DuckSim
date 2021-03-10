@@ -46,6 +46,7 @@
     <Compile Include="behaviors\FlyNoWay.cs" />
     <Compile Include="behaviors\FlyWithWings.cs" />
     <Compile Include="behaviors\ReactFly.cs" />
+    <Compile Include="behaviors\Drifting.cs" />
     <Compile Include="behaviors\SwimWithPaws.cs" />
     <Compile Include="DecoyDuck.cs" />
     <Compile Include="Duck.cs" />
@@ -59,6 +60,7 @@
     <Compile Include="interfaces\IQuackable.cs" />
     <Compile Include="MallardDuck.cs" />
     <Compile Include="ReadheadDuck.cs" />
+    <Compile Include="WoodDuck.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
