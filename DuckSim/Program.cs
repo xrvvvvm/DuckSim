@@ -10,7 +10,14 @@ namespace DuckSim
     {
         static void Main(string[] args)
         {
+            DecoyDuck decoyDuck = new DecoyDuck();
+            RoastDuck roastDuck = new RoastDuck();
+            WoodDuck woodDuck = new WoodDuck();
 
+            decoyDuck.quack();
+            roastDuck.display();
+            woodDuck.performSwim();
+            roastDuck.performQuack();
         }
     }
 }
